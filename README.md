@@ -10,7 +10,7 @@ nenhum
 ##### OK! 200
 caso aconteça essa mensagem você vai receber a lista de games
 Exemplo de resposta:
-'''
+```
 
 [
     {
@@ -34,6 +34,21 @@ Exemplo de resposta:
 ]
     
     
-    '''
+   ```
 ##### Falha na autenticação! 401
 Caso essa resposta aconteça, isso significa que aconteceu alguma falha durante o processo de autenticação da requisição. Motivos: Token inválido, token expirado.
+
+#### Prametros
+email: email do usuario cadastrado no sistema
+password: senha do usuario com aquele determinado email
+
+Exemplo:
+```
+
+{
+    "email":"barbiero.iper@gmail.com",
+    "password":"nodejs"
+}
+
+```
+
